@@ -7,34 +7,52 @@
   <title>HTML Portfolio</title>
 </head>
 <body>
-  <header class="header">
+  <header>
     <h1>Dan Remel</h1>
     <h2>Developer | Coffee Drinker | Dog Lover</h2>
   </header>
-  <div class="tagline">
-    <h3>Here is what I do.</h3>
-    <p>I have a love for blending the logical and the creative into beautiful functioning web pages. When I'm not doing that, I'm out grabbing coffee or walking my doggos.</p>
-  </div>
-  <div class="skills">
-    <h3>What I Use:</h3>
-    <p>While proficient in both ends of the stack, I have a love for front-end in particular.</p>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript (jQuery, ReactJS)</li>
-      <li>PHP</li>
-      <li>Ruby on Rails</li>
-    </ul>
-  </div>
-  <div class="contact">
-    <h3>Here's how to reach me!</h3>
-    <p>(678) 613-5273 || remel.dan@gmail.com
-        <a href="https://www.linkedin.com/in/danielremel">Connect with me on LinkedIn</a>
-        <a href="https://github.com/danremel">Check out my GitHub</a>
-        <a href="https://www.twitter.com/danOfTheDevs">Follow me on Twitter</a>
-    </p>
-    
-  </div>
+
+  <main>
+    <section class="tagline">
+      <div class="content-wrapper">
+      <h3>What I do</h3>
+      <p>I blend logic with creativity to form beautiful, effective web pages.<br> When I'm not doing that, I'm most often out grabbing coffee or walking my doggos.</p>
+      </div>
+    </section>
+    <section class="skills">
+      <div class="content-wrapper">
+      <h3>What I Use:</h3>
+      <p>While proficient in both ends of the stack, I have a love for the front-end.</p>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript (jQuery, ReactJS)</li>
+        <li>PHP</li>
+        <li>Ruby on Rails</li>
+      </ul>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="content-wrapper">
+      <h3>Here's how to reach me!</h3>
+      <p>(678) 613-5273 || <a class="email-link" href="mailto:remel.dan@gmail.com?subject=You%20seem%20like%20a%20cool%20guy">remel.dan@gmail.com</a>
+        <br>
+        <div class="icon-container">
+          <a class="icon" href="https://www.linkedin.com/in/danielremel"><img height="50px" src="images/LinkedIn_Icon.png"></a>
+          <a class="icon" href="https://github.com/danremel"><img height="50px" src="images/github_icon.png"/></a>
+          <a class="icon" href="https://www.twitter.com/danOfTheDevs"><img height="50px" src="images/Twitter_Social_Icon_Circle_Color.png"/></a>
+        </div>
+      </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="content-wrapper">
+      <h3>Credits</h3>
+      <p>This portfolio was created using <a href='https://www.codeschool.com'>Code School's</a> <a href='https://github.com/codeschool/SemanticHTMLPortfolioProject'>Semantic HTML Portfolio Project</a> template.</p>
+    </div>
+  </footer>
 
 </body>
 </html>
