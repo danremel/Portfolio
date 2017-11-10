@@ -159,6 +159,7 @@ p, ul {
  */
 
 .footer, footer {
+  text-align: center;
   margin-top: 2em;
   background-color: #444;
   color: #eee;
