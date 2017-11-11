@@ -5,8 +5,8 @@
 }
 
 body {
-  background: #F5F5F5;
-  color: #444;
+  background: rgb(232, 159, 95);
+  color: #f4f4f4;
   font-family: "Helvetica Neue", Arial, serif;
   font-size: 22px;
   margin: 0;
@@ -66,7 +66,9 @@ p, ul {
 .icon-container {
   text-align: center;
 }
-
+.icon img {
+  margin: 1%;
+}
 .icon img:hover {
   transition: all .3s ease-in-out;
   transform: scale(1.2);
@@ -90,7 +92,6 @@ p, ul {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  border-top: 4px solid #e91e63;
   color: #FFFFFF;
   display: flex;
   flex-direction: column;
@@ -142,16 +143,17 @@ p, ul {
  */
 
 .skills {
-  background: #e91e63;
-  color: white;
+  background: rgb(209,88,79);
+  color: #f4f4f4;
 }
 
 /* 
  * CONTACT
  */
 
-.contact p {
+.contact  {
   text-align: center;
+  background: rgb(140, 168, 188);
 }
 
 /* 
