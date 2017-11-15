@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # HTML Portfolio
 
 You'll create a personal web page to show off your work. We will test your HTML knowledge, and then it will be up to you to use CSS to style your own page and make it unique.
@@ -105,3 +106,6 @@ git subtree push --prefix src origin gh-pages
 ```
 
 This will push the `src` folder up to GitHub on the `gh-pages` branch. After that, you should be able to open up `http://username.github.io/HTMLPortfolioProject`, where `username` is your GitHub username.
+=======
+# Portfolio
+>>>>>>> 818a36fc212c2d4876cc13fb81730cae96ab79e5
