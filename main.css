@@ -155,7 +155,7 @@ p, ul {
  
  /* Slideshow container */
  .slideshow-container {
-   max-width: 1000px;
+   max-width: 750px;
    position: relative;
    margin: auto;
  }
@@ -192,8 +192,8 @@ p, ul {
  
  /* Caption text */
  .text {
-   color: #f2f2f2;
-   font-size: 15px;
+   color: #f4f4f4;
+   font-size: 18px;
    padding: 8px 12px;
    position: absolute;
    bottom: 8px;
