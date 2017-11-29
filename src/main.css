@@ -147,6 +147,15 @@ p, ul {
   color: #f4f4f4;
 }
 
+.left-list {
+  display: inline-block;
+}
+
+.right-list {
+  display: inline-block;
+  vertical-align: top;
+}
+
 /*
  * SLIDESHOW
  */
